@@ -1,0 +1,11 @@
+name = "svelte-kit"
+compatibility_date = "2025-01-08"
+
+[build]
+command = "npm run build"
+cwd = "."
+upload_format = "modules"
+
+[build.upload]
+format = "modules"
+dir = "build"
